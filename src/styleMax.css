@@ -1,3 +1,13 @@
+:root {
+  --main-color: rgba(20, 48, 46, 1);
+  --second-color: rgba(111.19, 11, 1);
+  --third-color: rgba(66, 88, 75, 1);
+  --fourth-color: rgba(183, 138, 97, 1);
+  --fifth-color: rgba(226, 224, 209, 1);
+  --main-text: "Bebas Neue", cursive;
+}
+
 .navbar {
-  background-color: rgb(245, 110, 110) !important;
+  background-color: var(--main-color) !important;
+  font-family: var(--main-text);
 }
