@@ -11,3 +11,11 @@
   background-color: var(--main-color) !important;
   font-family: var(--main-text);
 }
+
+.navbar-toggler {
+  color: var(--main-color) !important;
+}
+
+a {
+  color: var(--fifth-color) !important;
+}
