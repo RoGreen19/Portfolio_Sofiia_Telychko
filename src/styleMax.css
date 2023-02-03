@@ -7,6 +7,11 @@
   --main-text: "Bebas Neue", cursive;
 }
 
+body {
+  font-family: var(--main-text);
+  background-color: var(--fifth-color);
+}
+
 .navbar {
   background-color: var(--main-color) !important;
   font-family: var(--main-text);
