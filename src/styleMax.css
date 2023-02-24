@@ -84,3 +84,35 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+.email {
+  text-align: center;
+  padding: 10px;
+  color: var(--main-color);
+}
+
+@media (max-width: 767px) {
+  body {
+    line-height: 30px;
+  }
+  img {
+    border-radius: 6px;
+  }
+  h2 {
+    padding: 4px;
+    text-align: center;
+  }
+
+  .second-headin {
+    display: none;
+  }
+  .bigwebpagetext {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .smallwebpagetext {
+    display: none;
+  }
+}
