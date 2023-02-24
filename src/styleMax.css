@@ -92,8 +92,16 @@ p {
 }
 
 @media (max-width: 767px) {
+  h1 {
+    font-size: 130px;
+    text-align: right;
+  }
   body {
     line-height: 30px;
+  }
+  .between-text {
+    line-height: 48px;
+    font-size: 50px;
   }
   img {
     border-radius: 6px;
@@ -102,11 +110,10 @@ p {
     padding: 4px;
     text-align: center;
   }
-
-  .second-headin {
+  .bigwebpagetext {
     display: none;
   }
-  .bigwebpagetext {
+  .col-4 {
     display: none;
   }
 }
