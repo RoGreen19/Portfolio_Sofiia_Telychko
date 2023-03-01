@@ -123,3 +123,32 @@ p {
     display: none;
   }
 }
+
+/*About page styling */
+
+.aboutpage-firstheading {
+  color: var(--third-color);
+  margin-top: 148px;
+  font-size: 127px;
+  display: block;
+  line-height: 0.8;
+}
+
+.aboutpage-secondheading {
+  font-size: 32px;
+}
+
+.aboutpage-text {
+  font-size: 22px;
+}
+
+.aboutpage-img {
+  width: 60%;
+  border-radius: 4px;
+  margin-top: 148px;
+  margin-left: 134px;
+}
+
+.aboutpage-content {
+  margin: 62px;
+}
