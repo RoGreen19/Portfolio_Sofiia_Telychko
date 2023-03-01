@@ -163,8 +163,8 @@ p {
 }
 
 .projects img {
-  width: 50%;
   border-radius: 6px;
+  margin: 5px;
 }
 
 .projects h3 {
@@ -176,4 +176,10 @@ p {
 .projects p {
   font-size: 14px;
   margin-top: 4px;
+}
+
+@media (min-width: 768px) {
+  body {
+    text-align: center;
+  }
 }
