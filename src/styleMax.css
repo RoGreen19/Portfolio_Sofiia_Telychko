@@ -85,8 +85,9 @@ p {
   text-transform: capitalize;
 }
 
-.email {
+#email {
   text-align: center;
+  font-size: 23px;
   padding: 10px;
   color: var(--main-color);
 }
@@ -168,7 +169,8 @@ p {
 }
 
 .projects h3 {
-  font-size: 25px;
+  color: var(--third-color);
+  font-size: 30px;
   line-height: 1;
   margin: 20px 0 0;
 }
@@ -178,7 +180,7 @@ p {
   margin-top: 4px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   body {
     text-align: center;
   }
