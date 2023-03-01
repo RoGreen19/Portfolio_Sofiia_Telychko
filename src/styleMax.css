@@ -152,3 +152,12 @@ p {
 .aboutpage-content {
   margin: 62px;
 }
+
+.projectspage-firstheading {
+  color: var(--third-color);
+  margin-top: 148px;
+  margin-bottom: 40px;
+  font-size: 95px;
+  display: block;
+  line-height: 0.8;
+}
