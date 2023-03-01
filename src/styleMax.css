@@ -161,3 +161,19 @@ p {
   display: block;
   line-height: 0.8;
 }
+
+.projects img {
+  width: 50%;
+  border-radius: 6px;
+}
+
+.projects h3 {
+  font-size: 25px;
+  line-height: 1;
+  margin: 20px 0 0;
+}
+
+.projects p {
+  font-size: 14px;
+  margin-top: 4px;
+}
