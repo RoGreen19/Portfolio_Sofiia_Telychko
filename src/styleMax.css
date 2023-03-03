@@ -76,6 +76,12 @@ p {
   mix-blend-mode: screen;
 }
 
+@media (max-width: 1399px) {
+  .image-container {
+    display: none;
+  }
+}
+
 .primary-link {
   background: var(--second-color);
   color: var(--fourth-color);
@@ -92,9 +98,8 @@ p {
   color: var(--main-color);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1399px) {
   h1 {
-    font-size: 130px;
     text-align: center;
   }
   body {
@@ -119,7 +124,7 @@ p {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1400px) {
   .smallwebpagetext {
     display: none;
   }
@@ -160,6 +165,8 @@ p {
 .aboutpage-content {
   margin: 62px;
 }
+
+/*pojectpage*/
 
 .projectspage-firstheading {
   color: var(--third-color);
