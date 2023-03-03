@@ -150,6 +150,13 @@ p {
   margin-left: 134px;
 }
 
+@media (max-width: 768px) {
+  .aboutpage-img {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+
 .aboutpage-content {
   margin: 62px;
 }
